@@ -8,7 +8,7 @@ WARNINGS = {
     r'\b(bimbo|bitch|cunt|hag|slut|twat|whore)\b': 'sexist language',
     # LGBT-related slurs
     r'\b(sissy|pansy|sodomite|poofter|pillow-biter|fudgepacker|cocksucker|fag|faggot|flamer|ponce|tapette|nola|quean|jocker|poove|woofter)\b': 'a homophobic word or slur used against gay men',
-    r'\b(dyke[s]|lesbo)\b': 'a homophobic slur used against gay women',
+    r'\b(dykes?|lesbo)\b': 'a homophobic slur used against gay women',
     r'\b(fauxbian)\b': 'a biphobic slur used against bisexual women',
     r'\b(tranny|trannie|shim|heshe|shehe|she-man|sheman|transtrender|cuntboy|hefemale|shemale|dickgirl|ladyboy|trans-identified)\b': 'A slur or derogatory way of referring to transgender people',
     r'\b(hermie)\b': 'A slur for intersex people',
@@ -17,7 +17,7 @@ WARNINGS = {
     r'\b(stupid|retarded|idiotic)\b': 'ableist language. Some alternatives: pathetic, uninspiring, vapid, obtuse, silly',
     r'\b(crazy|insane|bonkers)\b': 'ableist language. Some alternatives: ludicrous, wild, ridiculous, absurd, chaotic, silly, nonsensical, unreal, unbelievable',
     r'\b(mad)\b': 'ableist language. Some alternatives: angry, furious, annoyed',
-    r'\b(idiot|idiotic|imbecile|moron|retard|lunatic)\b': 'ableist language. Some alternatives: uninformed, ignorant, incorrect, wrong',
+    r'\b(idiot[s]|idiotic|imbecile|moron|retard|lunatic)\b': 'ableist language. Some alternatives: uninformed, ignorant, incorrect, wrong',
     r'\b(cretin|midget|freak|nutter|schizo|tard|spaz)\b': 'ableist language. check out some alternatives! <http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html> (scroll down)',
     r'\b(sperg|autist)\b': 'a slur against autistic people',
     # Physical conditions
