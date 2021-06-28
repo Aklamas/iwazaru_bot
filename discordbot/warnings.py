@@ -8,7 +8,7 @@ WARNINGS = {
     r'\b(bimbo|bitch|cunt|hag|slut|twat|whore)\b': 'sexist language',
     # LGBT-related slurs
     r'\b(sissy|pansy|sodomite|poofter|pillow-biter|fudgepacker|cocksucker|fag|faggot|flamer|ponce|tapette|nola|quean|jocker|poove|woofter)\b': 'a homophobic word or slur used against gay men',
-    r'\b(dyke|lesbo)\b': 'a homophobic slur used against gay women',
+    r'\b(dyke[s]|lesbo)\b': 'a homophobic slur used against gay women',
     r'\b(fauxbian)\b': 'a biphobic slur used against bisexual women',
     r'\b(tranny|trannie|shim|heshe|shehe|she-man|sheman|transtrender|cuntboy|hefemale|shemale|dickgirl|ladyboy|trans-identified)\b': 'A slur or derogatory way of referring to transgender people',
     r'\b(hermie)\b': 'A slur for intersex people',
